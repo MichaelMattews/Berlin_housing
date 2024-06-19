@@ -3,6 +3,12 @@
 ### Introduction
 In this project, we aim to analyze and gain insights from real estate data scraped from Immobilienscout24, a popular property listing website. By leveraging data scraping techniques, we will collect information such as property details, prices, locations, and other relevant attributes.
 
+### What not to do when scraping!!!!
+* Do not scrape at rates that could damage the website.
+* Do not scrape data that's not available publicly.
+* Do not store PII of EU citizens who are protected by GDPR.
+* Do not repurpose the entire public datasets which can be illegal in some countries.
+
 #### Objectives:
 * Data Collection: Using web scraping tools like Python’s Requests and BeautifulSoup, we will gather a dataset comprising various properties listed on Immobilienscout24.
 
